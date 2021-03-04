@@ -31,10 +31,20 @@
    <ol>
        <li v-for="color in colors">{{color}}</li>
    </ol>
-
-
 </div>
 
+<div id = "app-5">
+   <ul>
+       <li v-for ="value in human">{{value}}</li>
+   </ul>
+   <hr>
+   <ul>
+       <li v-for ="(value, key) in human">
+           {{ key }}:{{ value }}
+       </li>
+   </ul>
+    
+</div>
 
 
 
