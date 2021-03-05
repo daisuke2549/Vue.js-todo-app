@@ -11,7 +11,7 @@
 
 
 <div id="app">
-<h2>TO DO list</h2>
+<h2>TODO list</h2>
 
 <form v-on:submit.prevent>
     <input type="text" v-model="newItem">
@@ -19,6 +19,11 @@
        タスク追加
     </button>
 </form>
+<ul>
+    <li v-for = "todo in todos">
+        <span>{{todo.item}}</span>
+    </li>
+</ul>
 <pre>{{ $data }}</pre>
 </div>
 
