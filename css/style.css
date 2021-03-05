@@ -1,4 +1,59 @@
 body{
     text-align:center;
     font-size:28px;
+    color:blue;
+    margin:0px;
+    padding:0px;
+    background-color: #C0C0C0;
+}
+
+input.taskadd{
+    width:200px;
+}
+p{
+    margin-bottom: 100px;
+}
+
+button{
+    background-color: lightblue;
+    font-weight: bold;
+    width:100px;
+}
+
+
+.add-task-list{
+    display: inline;
+}
+.task-list-content{
+    border:1px dashed black;
+    margin:0 auto;
+    border-collapse: collapse;
+    height:1200px;
+    max-width:700px;
+}
+
+li{
+
+    max-width:500px;
+}
+
+ul.task-list{
+    margin:0px auto;
+    padding:0px;
+
+}
+.task-list  li{
+    margin:20px auto;
+    display: block;
+}
+
+
+
+
+
+#app ul{
+    list-style: none;
+}
+#app li > span.done{
+    text-decoration: line-through;
 }
